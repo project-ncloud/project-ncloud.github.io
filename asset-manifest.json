@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cdf1bddc.chunk.css",
+    "main.js": "/static/js/main.6cf95485.chunk.js",
+    "main.js.map": "/static/js/main.6cf95485.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c64292c7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c64292c7.js.map",
+    "static/js/2.4eb4f95d.chunk.js": "/static/js/2.4eb4f95d.chunk.js",
+    "static/js/2.4eb4f95d.chunk.js.map": "/static/js/2.4eb4f95d.chunk.js.map",
+    "static/js/3.982c9d77.chunk.js": "/static/js/3.982c9d77.chunk.js",
+    "static/js/3.982c9d77.chunk.js.map": "/static/js/3.982c9d77.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cdf1bddc.chunk.css.map": "/static/css/main.cdf1bddc.chunk.css.map",
+    "static/js/2.4eb4f95d.chunk.js.LICENSE.txt": "/static/js/2.4eb4f95d.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/static/media/Steradian Regular.3cc35b78.otf",
+    "static/media/sujoy.4ee13660.jpg": "/static/media/sujoy.4ee13660.jpg",
+    "static/media/suvrojit.6f9a68be.jpg": "/static/media/suvrojit.6f9a68be.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c64292c7.js",
+    "static/js/2.4eb4f95d.chunk.js",
+    "static/css/main.cdf1bddc.chunk.css",
+    "static/js/main.6cf95485.chunk.js"
+  ]
+}
