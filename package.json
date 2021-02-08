@@ -1,14 +1,17 @@
 {
   "name": "project-ncloud.github.io",
   "version": "0.1.0",
-  "homepage": "http://project-ncloud.github.io/",
+  "homepage": "http://project-ncloud.github.io",
   "private": true,
+  "proxy": "http://127.0.0.1:5000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
+    "react-axios": "^2.0.4",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"

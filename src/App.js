@@ -1,6 +1,7 @@
 import './style.scss';
 import Welcome from './components/welcome'
 import Topbar from './components/topbar';
+import FileManager from './components/FileManager'
 
 
 import { useState } from 'react'
@@ -9,10 +10,10 @@ import About from './components/about';
 function App() {
 
   const [state, setState] = useState({
-    showMainScreen : false,
+    showMainScreen : true,
     showCreditScreen : false,
     showHelpScreen : false,
-    showAboutScreen : true,
+    showAboutScreen : false,
   })
 
   function openAbout(){
@@ -52,6 +53,7 @@ function App() {
     <>
       {state.showMainScreen ? <Welcome /> : null}
       {state.showAboutScreen ? <About /> : null}
+      {state.showHelpScreen ? <FileManager /> : null}
       <Topbar 
         openAbout={()=>openAbout()} 
         openCredit={()=>openCredit()} 
@@ -62,6 +64,8 @@ function App() {
         showCIco={state.showCreditScreen}
         showHIco={state.showHelpScreen}
       />
+
+
     </>
   );
 }
